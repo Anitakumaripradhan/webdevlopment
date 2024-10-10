@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body background="https://cdn.pixabay.com/photo/2015/11/03/08/54/question-mark-1019759_640.jpg">
+    <form action="Form.html" method="get">
+       <fieldset>
+            <legend>Register</legend>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" placeholder="enter your first name"><br><br>
+            <label for="Lastname">Last Name</label>
+            <input type="text" id="Lastname" placeholder="enter your last name"><br><br>
+            <label for="email">email :</label>
+            <input type="email" id="email" placeholder="enter your email"><br><br>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="enter your password"><br><br>
+            <label for="confirmpassword ">confirm password</label>
+            <input type="password" id="confirmpassword" placeholder="enter confirm password"><br><br>
+            <label for="wpnum">Whatshapp Number</label>
+            <input type="tel" id="wpnum" pattern="[10]{0-9}" placeholder="enter whatshapp number"><br><br>
+            <label for="Address">Address</label><br>
+            <textarea name="Address" id="Address" placeholder="enter your address"></textarea>
+            <label for="Date Of Birth">Date Of Birth</label>
+            <input type="date" id="DOB" name="DOB"><br><br>
+            <label for="citizenship">What Is Your Nationality?</label>
+            <select name="Nationality" id="Citizenship">
+                    <option value="Select" selected disabled>Selcect Your Citizenship</option>
+                    <option value="Indian">Indian</option>
+                    <option value="American">American</option>
+                    <option value="Canadian">Canadian</option>
+                    <option value="African">African</option>
+                    <option value="Non pakistani,non chinese, Asian">Non pakistani,Non Chinese, Asian</option>        
+           </select><br><br>
+           <label for="Gender" name="gender">Gender</label>
+           <input type="radio" name="gender" id="Male" value="Male">
+           <label for="Male">Male</label>
+           <input type="radio" name="gender" id="Female" value="Female">
+           <label for="Female">Female</label>
+           <input type="radio" name="gender" id="LGBTQ" value="LGBTQ">
+           <label for="LGBTQ">LGBTQ++</label><br><br>
+           <label for="subject" name="subject">Select subject of your 12th class:</label>
+            <input type="checkbox" name="Subject" id="Biology" value="Biology">
+            <label for="Biology">Biology</label>
+            <input type="checkbox" name="Subject" id="Physics" value="Physics">
+            <label for="Physics">Physics</label>
+            <input type="checkbox" name="subject" id="Chemistry" value="Chemistry">
+            <label for="Chemistry">Chemistry</label>
+            <input type="checkbox" name="subject" id="math" value="Math">
+            <label for="Math">Math</label><br><br>
+            <label for="age">Age</label>
+            <input type="range" name="age" id="age" min="18" max="30" step="1"><br><br>
+            <label for="photo">upload Your Passport Size Photo</label>
+            <input type="file" name="photo" id="photo"><br><br>
+            <button type="submit">Sumbit</button>
+            <Button type="reset">Reset</Button>
+         </fieldset> 
+    </form>
+</body>
+</html>
